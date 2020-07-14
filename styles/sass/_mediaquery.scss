@@ -87,11 +87,11 @@
 
 @media (max-width: 770px) {
     .navigation {
-        display: none;
+        justify-content: center;
     }
 
     .hamburger-menu i.fa  {
-        display: block;
+        display: none;
     }
 
     .hero-img {
