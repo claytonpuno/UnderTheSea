@@ -1,0 +1,150 @@
+// GLOBAL STYLES
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 138px;
+    line-height: 126px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+h2 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 80px;
+    line-height: 92px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+h3 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+h4 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 29px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+
+    &:hover {
+        color:  #86E0F9;
+        transition: 0.3s ease;
+    }
+}
+
+
+::placeholder {
+    color: white;
+}
+
+i.fa {
+    display: inline-block;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 2px #888;
+    box-shadow: 0px 0px 2px #888;
+    padding: 20px 20px;
+    height: 80px;
+    background-color: #86E0F9;
+    color: #0C1423;
+
+    &:hover {
+        color: white;
+        transition: 0.3s ease;
+    }
+  
+  }
+
+.hamburger-menu i.fa {
+    display: none;
+    color: white;
+    padding: 10px 20px;
+    height: 80px;
+
+    &:hover {
+        color: #0C1423;
+    }
+    
+}
+
+button {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px 0;
+
+    &:hover {
+        color: #0F614E;
+        transition: 0.3s ease;
+    }
+
+}
+
+
+p {
+    margin: 20px 0;
+}
+
+.find-out {
+    background-color: #86E0F9;
+}
+
+.read-more {
+    background-color: #0C1423;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+textarea {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}   
+
+.social-media {
+    padding: 0;
+    margin: 0 auto;
+    justify-content: flex-start;
+
+    li {
+        padding: 0;
+
+        i.fa {
+            display: inline-block;
+            color: white;
+            background-color: #0C1423; 
+            box-shadow: none;
+            height: 0;
+        }
+    }
+
+}
