@@ -909,10 +909,9 @@ textarea {
 
 @media (max-width: 770px) {
   .navigation {
-    display: none;
-  }
-  .hamburger-menu i.fa {
-    display: block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .hero-img {
     display: none;
